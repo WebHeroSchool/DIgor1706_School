@@ -31,17 +31,17 @@ body {
   display: flex;
   align-items: center;
 }
-.menu__item: {
+/*.menu__item {
   padding-right: 0 13px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif; 
-}
+}*/
 .menu__item_active::after {
   display: block;
   content: "";
   width: 68px;
-  height: 3px;
+  height: 53px;
   background: #0056EC;
-  left: 50;
+  /*left: 50;*/
 }
 .main-content__subtitle {
   font-family: Roboto;
