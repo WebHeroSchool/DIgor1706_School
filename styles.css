@@ -43,7 +43,7 @@ body {
   height: 3px;
   position: absolute;
   background: #0056EC;
-  left: 0;
+  left:  0;
 }
 
 .menu__item:last-child {
