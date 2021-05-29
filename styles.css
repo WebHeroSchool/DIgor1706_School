@@ -1,21 +1,24 @@
-/* */
 body {
   margin: 0;
 }
+
 .wrapper {
   margin: auto;
   width: 90%;
 }
+
 .header {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
+
 .logo {
   width: 190px;
   height: 35px;
   background: url('img/logo.svg');
 }
+
 .menu__item {
   margin: 0 13px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
@@ -27,14 +30,12 @@ body {
   font-size: 24px;
   line-height: 26px;
 }
+
 .menu {
   display: flex;
   align-items: center;
 }
-/*.menu__item {
-  padding-right: 0 13px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif; 
-}*/
+
 .menu__item_active::after {
   display: block;
   content: "";
@@ -43,10 +44,12 @@ body {
   background: #0056EC;
   /*left: 50;*/
 }
+
 .main-content__subtitle {
   font-family: Roboto;
   font-size: 18px;
 }
+
  .main-content__button {
   font-family: Roboto;
   font-size: 22px;
