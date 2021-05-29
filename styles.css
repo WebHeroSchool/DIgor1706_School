@@ -17,39 +17,39 @@ body {
   background: url('img/logo.svg');
 }
 .menu__item {
-  margin: 0 6px;
+  margin: 0 13px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-   font-size: 14px;
-    line-height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
 }
 .menu {
-   display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
-.menu__item: last-child {
-  padding-right: 0;
+.menu__item: {
+  padding-right: 0 13px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif; 
 }
 .menu__item_active::after {
-  position: absolute;
   display: block;
   content: "";
-  width: 52px;
-  height: 4px;
+  width: 68px;
+  height: 3px;
   background: #0056EC;
   left: 50;
 }
 .main-content__subtitle {
-    font-family: Roboto;
-    font-size: 18px;
+  font-family: Roboto;
+  font-size: 18px;
 }
  .main-content__button {
-    font-family: Roboto;
-    font-size: 22px;
-    color: rgb(243, 239, 239);
-   background-color: darkblue; 
+  font-family: Roboto;
+  font-size: 22px;
+  color: rgb(243, 239, 239);
+  background-color: darkblue; 
 } 
