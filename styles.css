@@ -49,6 +49,7 @@ body {
 .menu__item:last-child {
     margin-right: 0;
 }
+
 .main-content__subtitle {
   font-family: Roboto;
   font-size: 18px;
