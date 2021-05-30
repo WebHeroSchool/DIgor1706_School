@@ -26,9 +26,9 @@ body {
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 24px;
-  line-height: 26px;
+  line-height: 36px;
 }
 
 .menu {
@@ -39,11 +39,11 @@ body {
 .menu__item_active::after {
   display: block;
   content: '';
-  width: 100%;
+  width: 70px;
   height: 3px;
   position: absolute;
   background: #0056EC;
-  left: 0;
+  left: 70;
 }
 
 .menu__item:last-child {
