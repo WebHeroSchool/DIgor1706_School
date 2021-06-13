@@ -7,6 +7,7 @@ element.stules {
 }
 
 .wrapper {
+    margin: 0 auto;
     width: 79.5%;
     font-family: Roboto;
   }
@@ -16,6 +17,7 @@ element.stules {
     padding: 40px 0px;
     justify-content: space-between;
     margin-bottom: 127px;
+    
    }
 
 .logo {
@@ -81,6 +83,7 @@ menu__item:after {
 }
 
 .main__title {
+    margin: 0;
     font: 600 66px/87px PT Serif, arial, helvetica, sans-serif;
     padding: 73px 0 74px;
     letter-spacing: 2.3px;
