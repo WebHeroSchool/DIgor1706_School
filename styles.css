@@ -2,15 +2,18 @@ body {
     margin: 0;
 }
 
+element.stules {
+    margin-right: 0;
+}
+
 .wrapper {
-    margin: auto;
-    width: 80%;
+    width: 79.5%;
     font-family: Roboto;
   }
 
 .header {
     display: flex;
-    padding: 40px 72px;
+    padding: 40px 0px;
     justify-content: space-between;
     margin-bottom: 127px;
    }
@@ -29,17 +32,16 @@ body {
 .menu__item {
     position: relative;
     margin-bottom: 0;
-    left: 672px;
-    margin-right: 26px;
     margin-left: 0;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
-    transition: opacity: 0.5s;
-    }
+    
+}
 
 .menu__item:last-child {
-    margin-right: 22px;
+    margin: 0;
+   /* margin-right: 22px;*/
 }
 
 .menu__item_active::after {
@@ -74,26 +76,22 @@ menu__item:after {
     background: 98.5% 0 url(img/mainimg.svg);
     background-repeat: no-repeat;
     /*background-position: 250px right;*/
-    padding-right: 80%;
-    width: 79%;
+    padding-right: 58.8%;
+    width: 42%;
     height: 657px;
-      /* background: top right no-repeat url(img/mainimg.svg); */
-
 }
 
 .main__title {
-    margin: 0 0 0 0;
     font: 600 66px/87px PT Serif, arial, helvetica, sans-serif;
-    padding: 73px 72px;
+    padding: 73px 0 74px;
     letter-spacing: 2.3px;
     height: 228px;
 }
 
 .main__subtitle {
     margin: 0px;
-    width: 57%;
+    width: 66%;
     font: 300 21px/23px Roboto, arial, helvetica, sans-serif;
-    padding: 0 68px;
     letter-spacing: 0.5px;
 }
 
@@ -109,6 +107,6 @@ menu__item:after {
     padding: 8px 26px;
     text-decoration: none; 
     border-radius: 4px;
-    margin:41px 70px;
+    margin:41px 0px;
     height: 62px;
 }
