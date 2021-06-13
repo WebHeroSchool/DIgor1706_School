@@ -71,15 +71,16 @@ menu__item:after {
 }
 
 .main {
-    padding: 0 0 -500px 0;
-   
+    /*padding: 0 0 100px 0;*/
+    
+    background-position: 0 right; 
     background: url(img/mainimg.svg);
     background-repeat: no-repeat;
     background-position: center right;
-    background-position: top right;
+    /*background-position: 250px right;*/
     padding-right: 80%;
     width: 78%;
-    /* background: top right no-repeat url(img/mainimg.svg); */
+      /* background: top right no-repeat url(img/mainimg.svg); */
 
 }
 
