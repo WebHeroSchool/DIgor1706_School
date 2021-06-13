@@ -12,7 +12,7 @@ body {
     display: flex;
     padding: 40px 72px;
     justify-content: space-between;
-    margin-bottom: 200px;
+    margin-bottom: 127px;
    }
 
 .logo {
@@ -71,15 +71,11 @@ menu__item:after {
 }
 
 .main {
-    /*padding: 0 0 100px 0;*/
-    
-    background-position: 0 right; 
-    background: url(img/mainimg.svg);
+    background: 98,5% 0 url(img/mainimg.svg);
     background-repeat: no-repeat;
-    background-position: center right;
     /*background-position: 250px right;*/
-    padding-right: 80%;
-    width: 78%;
+    padding-right: 72%;
+    width: 66%;
       /* background: top right no-repeat url(img/mainimg.svg); */
 
 }
@@ -87,7 +83,7 @@ menu__item:after {
 .main__title {
     margin: 0 0 40px 0;
     font: 600 66px/87px PT Serif, arial, helvetica, sans-serif;
-    padding: 0 72px;
+    padding: 73px 51px;
     letter-spacing: 2.3px;
 }
 
