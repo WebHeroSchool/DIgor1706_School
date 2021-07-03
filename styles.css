@@ -4,7 +4,7 @@ body {
 
 element.stules {
     width: 32px;
-    height: 8px;
+    height: 198px;
     margin: 0 auto;
     margin-bottom: 0;
     /*margin-right: 0;*/
@@ -123,7 +123,7 @@ menu__item:after {
 }
 .points {
     width: 32px;
-    height: 18px;
+    height: 198px;
     margin: 0 auto;
     margin-bottom: 0;
     background: center no-repeat url(img/group.svg);
