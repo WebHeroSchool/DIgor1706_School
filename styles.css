@@ -98,8 +98,6 @@ menu__item:after {
 
 .main__title-text_highlight {
     background: #ECF3FF;
-    border: 0;
-    margin: 0;
 }
 .main__button {
     margin-bottom: 0;
