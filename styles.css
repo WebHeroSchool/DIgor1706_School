@@ -6,6 +6,7 @@ element.stules {
     width: 32px;
     height: 8px;
     margin: 0 auto;
+    margin-bottom: 0;
     /*margin-right: 0;*/
 }
 
@@ -124,5 +125,7 @@ menu__item:after {
     width: 32px;
     height: 8px;
     margin: 0 auto;
+    margin-bottom: 0;
     background: center no-repeat url(img/group.svg);
+    
 }
