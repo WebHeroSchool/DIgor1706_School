@@ -3,7 +3,10 @@ body {
 }
 
 element.stules {
-    margin-right: 0;
+    width: 32px;
+    height: 8px;
+    margin: 0 auto;
+    /*margin-right: 0;*/
 }
 
 .wrapper {
@@ -118,5 +121,8 @@ menu__item:after {
     height: 62px;
 }
 .points {
+    width: 32px;
+    height: 8px;
+    margin: 0 auto;
     background: center no-repeat url(img/group.svg);
 }
