@@ -97,10 +97,11 @@ menu__item:after {
 }
 
 .main__title-text_highlight {
-    background: linear-gradient(to top,
-    rgb(236 243 255) 0%
-    rgb(236 243 255) 60%
-    rgb(236 243 255) 82% 100% );
+    background: linear-gradient(to top, rgb(236 243 255) 0%, rgb(236 243 255) 60%, rgb(255 255 255) 82% 100%);
+   /* linear-gradient(to top,
+    rgb(236 243 255) 0%,
+    rgb(236 243 255) 60%,
+    rgb(255 255 255) 82% 100%);*/
     /*background: #ECF3FF;
     padding: 0; */
 }
