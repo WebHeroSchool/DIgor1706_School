@@ -97,7 +97,12 @@ menu__item:after {
 }
 
 .main__title-text_highlight {
-    background: #ECF3FF;
+    background: linear-gradient(to top,
+    rgb(236 243 255) 0%
+    rgb(236 243 255) 60%
+    rgb(236 243 255) 82% 100%);
+    /*background: #ECF3FF;
+    padding: 0; */
 }
 .main__button {
     margin-bottom: 0;
