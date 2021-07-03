@@ -118,5 +118,5 @@ menu__item:after {
     height: 62px;
 }
 .points {
-   background: url('img/group.svg');
+    background: center no-repeat url(img/group.svg);
 }
