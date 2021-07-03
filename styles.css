@@ -100,7 +100,7 @@ menu__item:after {
     background: linear-gradient(to top,
     rgb(236 243 255) 0%
     rgb(236 243 255) 60%
-    rgb(236 243 255) 82% 100%);
+    rgb(236 243 255) 82% 100% );
     /*background: #ECF3FF;
     padding: 0; */
 }
