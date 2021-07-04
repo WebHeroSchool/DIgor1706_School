@@ -36,7 +36,7 @@ element.stules {
 
 .menu__item {
     position: relative;
-    margin-right: 29px;
+    margin-right: 27px;
     left: 0;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     color: #000;
@@ -45,7 +45,7 @@ element.stules {
 
 .menu__item:last-child {
     margin: 0;
-    margin-right: 0px;
+    margin-right: 4px;
 }
 
 .menu__item_active::after {
