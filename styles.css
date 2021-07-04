@@ -28,10 +28,17 @@ element.stules {
     background: url('img/logo.svg');
   }
 
-.menu {
+ @media (max-width: 768px) {
+    .menu {
+        display: none;
+        align-items: center;
+        margin: 0;
+    }
+}
+/*.menu {
     display: flex;
     align-items: center;
-}
+} */
 
 .menu__item {
     position: relative;
