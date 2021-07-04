@@ -7,8 +7,7 @@ element.stules {
     height: 198px;
     margin: 0 auto;
     margin-bottom: 0;
-    /*margin-right: 0;*/
-}
+  }
 
 .wrapper {
     margin: 0 auto;
@@ -57,7 +56,7 @@ element.stules {
     background: #0056EC;
 }
 
-menu__item:after {
+.menu__item:after {
     position: absolute;
     display: block;
     content: "";
@@ -88,8 +87,7 @@ menu__item:after {
     margin: 0;
     font: 700 66px/87px PT Serif, arial, helvetica, sans-serif;
     padding: 74px 0 76px;
-    /*letter-spacing: 1.4px;*/
-   height: 220px;
+    height: 220px;
 }
 
 .main__subtitle {
