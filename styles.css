@@ -52,7 +52,7 @@ element.stules {
     position: absolute;
     display: block;
     content: "";
-    width: 200%;
+    width: 100%;
     height: 3px;
     background: #0056EC;
 }
