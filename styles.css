@@ -87,7 +87,7 @@ menu__item:after {
 
 .main__title {
     margin: 0;
-    font: 700 66px/87px PT_Serif, arial, helvetica, sans-serif;
+    font: 700 66px/87px PT Serif, arial, helvetica, sans-serif;
     padding: 96px 0 76px;
     letter-spacing: 2.3px;
     height: 228px;
