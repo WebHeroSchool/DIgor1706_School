@@ -87,7 +87,7 @@ menu__item:after {
 
 .main__title {
     margin: 0;
-    font: 600 66px/87px PT Serif, arial, helvetica, sans-serif;
+    font: 700 66px/87px pt_serifbold, arial, helvetica, sans-serif;
     padding: 73px 0 74px;
     letter-spacing: 2.3px;
     height: 228px;
@@ -96,7 +96,7 @@ menu__item:after {
 .main__subtitle {
     margin: 0px;
     width: 66%;
-    font: 300 21px/23px Roboto, arial, helvetica, sans-serif;
+    font: 400 21px/23px Roboto, arial, helvetica, sans-serif;
     letter-spacing: 0.5px;
 }
 
@@ -112,7 +112,7 @@ menu__item:after {
 .main__button {
     margin-bottom: 0;
     display: inline-block;
-    font: 18px/34px Roboto, arial, helvetica, sans-serif;
+    font: 500 18px/34px Roboto, arial, helvetica, sans-serif;
     color: #fff;
     background: #0056EC;
     padding: 8px 26px;
