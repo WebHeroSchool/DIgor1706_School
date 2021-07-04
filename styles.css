@@ -88,16 +88,18 @@ menu__item:after {
 .main__title {
     margin: 0;
     font: 700 66px/87px PT Serif, arial, helvetica, sans-serif;
-    padding: 96px 0 76px;
-    letter-spacing: 2.3px;
+    padding: 76px 0 76px;
+    /*letter-spacing: 1.4px;*/
     height: 228px;
 }
 
 .main__subtitle {
     margin: 0;
     width: 66%;
+    font-size: 22px;
+    line-height: 26px;
     font: 400 21px/23px Roboto, arial, helvetica, sans-serif;
-    letter-spacing: 0.5px;
+   /* letter-spacing: 0.5px;*/
 }
 
 .main__title-text_highlight {
@@ -123,7 +125,7 @@ menu__item:after {
 }
 .points {
     width: 32px;
-    height: 198px;
+    height: 8px;
     margin: 0 auto;
     margin-bottom: 0;
     background: center no-repeat url(img/group.svg);
