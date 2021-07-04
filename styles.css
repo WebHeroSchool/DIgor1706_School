@@ -36,7 +36,7 @@ element.stules {
 
 .menu__item {
     position: relative;
-    margin-right: 26px;
+    margin-right: 29px;
     left: 0;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     color: #000;
@@ -114,13 +114,13 @@ menu__item:after {
 .main__button {
     margin-bottom: 0;
     display: inline-block;
-    font: 500 18px/34px Roboto, arial, helvetica, sans-serif;
+    font: 500 18px/14px Roboto, arial, helvetica, sans-serif;
     color: #fff;
     background: #0056EC;
-    padding: 8px 26px;
+    padding: 6px 32px 6px 22px;
     text-decoration: none; 
     border-radius: 4px;
-    margin:41px 0px;
+    margin:41px -3px;
     height: 62px;
 }
 .points {
