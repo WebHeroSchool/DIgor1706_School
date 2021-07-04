@@ -79,7 +79,6 @@ menu__item:after {
 .main {
     background: 98.5% 0 url(img/mainimg.svg);
     background-repeat: no-repeat;
-    /*background-position: 250px right;*/
     padding-right: 58.8%;
     width: 42%;
     height: 657px;
@@ -100,18 +99,12 @@ menu__item:after {
     font-size: 22px;
     line-height: 26px;
     font: 400 22px/23px Roboto, arial, helvetica, sans-serif;
-   /* letter-spacing: 0.5px;*/
 }
 
 .main__title-text_highlight {
     background: linear-gradient(to top, rgb(236 243 255) 0%, rgb(236 243 255) 60%, rgb(255 255 255) 82% 100%);
-   /* linear-gradient(to top,
-    rgb(236 243 255) 0%,
-    rgb(236 243 255) 60%,
-    rgb(255 255 255) 82% 100%);*/
-    /*background: #ECF3FF;
-    padding: 0; */
 }
+
 .main__button {
     margin-bottom: 0;
     display: inline-block;
@@ -124,6 +117,7 @@ menu__item:after {
     margin:41px -3px;
     height: 62px;
 }
+
 .points {
     width: 32px;
     height: 8px;
