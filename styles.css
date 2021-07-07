@@ -138,7 +138,7 @@ element.stules {
 
     .header {
         display: flex;
-        padding: 40px 0px;
+        padding: 20px 0px;
         justify-content: space-between;
         margin-bottom: 28px;
        }
@@ -159,7 +159,7 @@ element.stules {
         background-size: 74%;
         margin-top: 0;
         padding-right: 58.8%;
-        width: 232px;
+        width: 239px;
         height: 280px;
       }
         .main__title {
@@ -201,6 +201,10 @@ element.stules {
             top:25px; 
             left:74px;
             
+        }
+
+        .points {
+            display: none
         }
 
     }
