@@ -28,17 +28,11 @@ element.stules {
     background: url('img/logo.svg');
   }
 
- @media (max-width: 768px) {
-    .menu {
-        display: none;
-        align-items: center;
-        
-    }
-}
-/*.menu {
+ 
+.menu {
     display: flex;
     align-items: center;
-} */
+} 
 
 .menu__item {
     position: relative;
@@ -131,3 +125,80 @@ element.stules {
     background: center no-repeat url(img/group.svg);
     
 }
+@media (max-width: 667px) {
+    .menu {
+        display: none;
+        align-items: center;
+    }
+    .wrapper {
+        margin: 0 auto;
+        width: 84.5%;
+        font-family: Roboto;
+    }
+
+    .header {
+        display: flex;
+        padding: 40px 0px;
+        justify-content: space-between;
+        margin-bottom: 28px;
+       }
+
+    .logo {
+        width: 190px;
+        height: 35px;
+        background: url('img/logocr.svg');
+        background-repeat: no-repeat;
+      }
+    
+     .main {
+        text-align: center;
+        background: url(img/mainimg.svg);
+        padding: 74% 0 0;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 74%;
+        margin-top: 0;
+        padding-right: 58.8%;
+        width: 232px;
+        height: 280px;
+      }
+        .main__title {
+            margin-bottom: 44px;
+            padding: 74% 0 0;
+            font: bold 30px/39px PT Serif, arial, helvetica, sans-serif;
+            padding: 32px 51px 32px 57px;
+            width: 280px;
+            height: 32px;
+        }
+        
+        .main__subtitle {
+            margin-bottom: 25px;
+            margin-top: 0px;
+            width: 112%;
+            padding: 32px 47px 0 62px;
+            font-size: 22px;
+            line-height: 26px;
+            font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+        }
+        
+        .main__title-text_highlight {
+            background: linear-gradient(to top, rgb(236 243 255) 0%, rgb(236 243 255) 60%, rgb(255 255 255) 82% 100%);
+        }
+        
+        .main__button {
+            margin-bottom: 0;
+
+            padding: 74% 0 0;
+            font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+            color: #fff;
+            background: #0056EC;
+            padding: 6px 32px 6px 22px;
+            text-decoration: none; 
+            border-radius: 4px;
+            margin: 0 -3px;
+            height: 62px;
+          
+            
+        }
+
+    }
