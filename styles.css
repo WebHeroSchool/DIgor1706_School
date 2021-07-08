@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+.container { 
+    overflow: hidden; 
+}
 
 element.stules {
     width: 32px;
@@ -130,6 +133,7 @@ element.stules {
         display: none;
         align-items: center;
     }
+   
     .wrapper {
         margin: 0 auto;
         width: 95.5%;
@@ -209,5 +213,5 @@ element.stules {
         .points {
             display: none
         }
-
+        
     }
