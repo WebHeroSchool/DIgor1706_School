@@ -141,7 +141,7 @@ element.stules {
     display: flex;
     padding: 24px 0 0px;
     justify-content: space-between;
-    margin-bottom: 28px; /* Изменение */
+    margin-bottom: 122px; /* Изменение */
         
    }
  
@@ -211,9 +211,11 @@ element.stules {
     .main {
       background: 88.5% 0 url(img/mainimg.svg);
       background-repeat: no-repeat;
-      padding-right: 61.8%;
-      width: 52%;
-      height: 657px;
+      background-size: 38.6%;
+      padding-right: 71.8%;
+      margin-top: 118px;
+      margin-left: -186px;
+      height: 434px;
     }
 
    /* .main {
@@ -233,42 +235,52 @@ element.stules {
     .main__title {
       margin: 0;
       font: 700 50px/65px PT Serif, arial, helvetica, sans-serif;
-      padding: 74px 0 16px;
+      padding: 15px 0 0;
       height: 120px;
-      margin-top: 62px;
-      margin-left: 120px;
+      margin-top: 58px;
+      margin-left: 306px;
       width: 80%;
     
     }
 
   .main__subtitle {
     margin: 0;
-    margin-top: 100px;
-    margin-left: 120px;
-    width: 62%;
+    margin-top: 117px;
+    margin-left: 304px;
+    width: 72%;
     font-size: 22px;
     line-height: 26px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   }
 
+  .main__title-text_highlight {
+    background: linear-gradient(to top, rgb(236 243 255) 0%, rgb(236 243 255) 60%, rgb(255 255 255) 82% 100%);
+}
+
   .main__button {
     margin-bottom: 0;
     
-    /*display: inline-block;*/
+    display: inline-block;
     font: 500 14px/14px Roboto, arial, helvetica, sans-serif;
     color: #fff;
     background: #0056EC;
-    padding: 6px 26px 6px 14px;
+    padding: 6px 26px 6px 12px;
     text-decoration: none; 
     border-radius: 4px;
-    margin:41px 120px;
+    margin:39px -44px;
+    margin-left: 305px;
     height: 46px;
   }
   
-
-  .main__title-text_highlight {
-      background: linear-gradient(to top, rgb(236 243 255) 0%, rgb(236 243 255) 60%, rgb(255 255 255) 82% 100%);
+  .points {
+    width: 32px;
+    height: 8px;
+    margin: 0 auto;
+    margin-top: 92px;
+    background: center no-repeat url(img/group.svg);
   }
+  
+
   
   /*.main__button {
       margin-bottom: 0;
@@ -286,9 +298,8 @@ element.stules {
       top:2px; 
       left: 65px;
   } */
-  .points {
-      display: none
-  } 
+  
+} 
 
     /*.main {
       background: 98.5% 0 url(img/mainimg.svg);
