@@ -584,7 +584,7 @@ element.stules {
   } 
 
  /*скрываем чекбокс */ 
-#menu__toggle {
+    #menu__toggle {
   opacity: 0;
 }
 
