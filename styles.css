@@ -35,7 +35,7 @@ element.stules {
   display: flex;
   padding: 40px 0px;
   justify-content: space-between;
-  margin-bottom: 27px;
+  margin-bottom: 127px;
 }
 
 .logo {
@@ -53,7 +53,7 @@ element.stules {
 .menu__item {
   position: relative;
   margin-right: 27px;
-  left: 0;
+  left: 490px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
