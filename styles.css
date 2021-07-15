@@ -458,9 +458,55 @@ element.stules {
   font: 400 22px/23px Roboto, arial, helvetica, sans-serif;
 }
 
-
-
 }
+
+@media (max-width: 1580px) {
+   
+  .header {
+     display: flex;
+     padding: 40px 0 0px;
+     justify-content: space-between;
+     margin-bottom: 122px;
+         
+   }
+
+
+   .main__title {
+    margin: 0;
+    font: 700 66px/87px PT Serif, arial, helvetica, sans-serif;
+    padding: 74px 0 76px;
+    height: 220px;
+  }
+ 
+  .main__subtitle {
+    margin: 0;
+    margin-top: 4px;
+    margin-left: 126px;
+    width: 56%;
+    font-size: 22px;
+    line-height: 26px;
+    font: 400 22px/23px Roboto, arial, helvetica, sans-serif;
+  }
+   
+  .main__title-text_highlight {
+    background: linear-gradient(to top, rgb(236 243 255) 0%, rgb(236 243 255) 60%, rgb(255 255 255) 82% 100%);
+  }
+  
+  .main__button {
+    margin-bottom: 0;
+    display: inline-block;
+    font: 500 18px/14px Roboto, arial, helvetica, sans-serif;
+    color: #fff;
+    background: #0056EC;
+    padding: 6px 32px 6px 22px;
+    text-decoration: none; 
+    border-radius: 4px;
+    margin:41px -3px;
+    height: 62px;
+  }
+ 
+ }
+
 
 
 @media (max-width: 1366px) {
