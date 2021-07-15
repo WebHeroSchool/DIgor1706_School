@@ -1,10 +1,22 @@
 body {
   margin: 0;
 }
-
-.container { 
-overflow: hidden; 
+@media (max-width: 1920px) {
+ 
+  .menu__box {
+    display: none;
+  }
+  .container { 
+   display: none;
+} 
+/*скрываем чекбокс */ 
+#menu__toggle {
+  opacity: 0;
 }
+
+/* .container { 
+overflow: hidden; 
+} */
 
 element.stules {
   width: 32px;
@@ -128,8 +140,13 @@ element.stules {
   background: center no-repeat url(img/group.svg);
 }
 
+}
+
 @media (max-width: 1366px) {
  
+  .container { 
+   display: none;
+} 
   .wrapper {
     margin: 0 auto;
     width: 85.5%;
